@@ -1,0 +1,186 @@
+
+*{
+  font-family:'Nunito', sans-serif ;
+}
+
+.parent-container{
+  /* background: no-repeat !important; */
+  /* box-shadow: 3px 5px; */
+  background: url("/public/b-i.png") !important;
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+ 
+}
+.container {
+  display: flex;
+  /* height: 70vh; */
+  flex-direction: column;
+  align-items: center;
+  /* border: 2px solid black; */
+  width: 25%;
+  height: 40%;
+  margin-top: 5%;
+  /* margin: 9% 37%; */
+  padding: 5%;
+  border-radius: 5px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+
+}
+.login-head {
+  display: flex;
+  align-items: center;
+  font-size: 25px;
+}
+.username {
+  display: flex;
+  margin: 4%;
+  width: 51%;
+  border: 1px solid black;
+  border-top: 0px;
+  border-right: 0px;
+  border-left: 0px;
+  border-radius: 7%;
+  background-color: #fff;
+  padding: 1.5%;
+}
+.username:hover {
+  background-color: rgb(243, 243, 234);
+}
+.password {
+  display: flex;
+  width: 51%;
+  border: 1px solid black;
+  border-top: 0px;
+  border-right: 0px;
+  border-left: 0px;
+  border-radius: 7%;
+  background-color: #fff;
+  padding: 1.5%;
+}
+.password:hover {
+  background-color: rgb(243, 243, 234);
+}
+.log-btn {
+  display: flex;
+  padding: 1% 9%;
+  margin: 7% 1%;
+  font-size: 13px;
+  border-radius: 12px;
+  color: white;
+  background: #4c7bd1;
+  border: none;
+}
+.log-btn:hover {
+  color: #4c7bd1;
+  background: rgb(223, 215, 215)
+}
+.signup {
+  display: flex;
+  font-size: 10px;
+  align-items: center;
+}
+.regis-container { 
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: url("/public/b-i.png") !important;
+  display: flex;
+  justify-content: center;
+  height: 70vh; 
+  padding: 8% 34%;
+  border-radius: 3px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+
+}
+.main-heading {
+  display: flex;
+  font-size: 43px;
+  padding: 1% 0%;
+}
+.heading {
+  display: flex;
+  flex-direction: column;
+  font-size: 15px;
+  align-items: center;
+}
+.span-head {
+  color: #4c7bd1;
+  display: flex;
+}
+.regis-name {
+  display: flex;
+  padding: 1% 5%;
+  margin: 3% 5%;
+  border-top: 0px;
+  border-right: 0px;
+  border-left: 0px;
+}
+.regis-name:hover {
+  background-color: rgb(243, 243, 234);
+}
+.regis-email {
+  display: flex;
+  padding: 1% 5%;
+  margin: 3% 5%;
+  border-top: 0px;
+  border-right: 0px;
+  border-left: 0px;
+}
+.regis-email:hover {
+  background-color: rgb(243, 243, 234);
+}
+.regis-num {
+  display: flex;
+  padding: 1% 5%;
+  margin: 3% 5%;
+  border-top: 0px;
+  border-right: 0px;
+  border-left: 0px;
+}
+.regis-num:hover {
+  background-color: rgb(243, 243, 234);
+}
+.regis-pass {
+  display: flex;
+  padding: 1% 5%;
+  margin: 3% 5%;
+  border-top: 0px;
+  border-right: 0px;
+  border-left: 0px;
+}
+.regis-pass:hover {
+  background-color: rgb(243, 243, 234);
+}
+.regis-check {
+  display: flex;
+  padding: 1% 0%;
+}
+.regis-check:hover {
+  background-color: rgb(243, 243, 234);
+}
+.regis-checkbox {
+  display: flex;
+  font-size: 11px;
+  padding: 1.2% 0%;
+}
+
+.regis-btn {
+  display: flex;
+  padding: 1% 9%;
+  margin: 7% 1%;
+  font-size: 13px;
+  border-radius: 12px;
+  color: white;
+  background: #4c7bd1;
+  border: none;
+}
+.regis-btn:hover {
+  color: #4c7bd1;
+  background: rgb(223, 215, 215);
+}
+.signin {
+  display: flex;
+  font-size: 11px;
+}
+
